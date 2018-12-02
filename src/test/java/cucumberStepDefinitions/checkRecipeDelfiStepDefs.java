@@ -56,6 +56,6 @@ public class checkRecipeDelfiStepDefs {
 
     @Then("checking for selected recipe name")
     public void check_for_recipe(){
-        ingredientPage.checkForSelectedRecipeName(recipePage.getRecipeText());
+        ingredientPage.checkForSelectedRecipeName(recipePage.getRecipeText(), recipePage.checkIngredients());
     }
 }
