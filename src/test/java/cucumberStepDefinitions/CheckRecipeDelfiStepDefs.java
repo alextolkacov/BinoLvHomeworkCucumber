@@ -3,9 +3,9 @@ package cucumberStepDefinitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import delfiRecipeTest.Pages.*;
+import delfiRecipeTest.pages.*;
 
-public class checkRecipeDelfiStepDefs {
+public class CheckRecipeDelfiStepDefs {
     BaseFunc baseFunc = new BaseFunc();
     HomePage homePage = new HomePage(baseFunc);
     FoodPage foodPage = new FoodPage(baseFunc);
